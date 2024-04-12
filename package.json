@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "client": "cd client && npm start",
+    "dev": "concurrently \"cd server && nodemon index.js\" \" npm run client\""
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.2",
+    "all": "^0.0.0",
+    "bulma": "^0.9.3",
+    "concurrently": "^6.2.1",
+    "react-router-dom": "^6.0.2",
+    "react-to-print": "^2.14.0",
+    "save": "^2.4.0"
+  },
+  "name": "balvubiedriba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

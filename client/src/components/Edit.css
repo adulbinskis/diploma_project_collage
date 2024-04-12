@@ -1,0 +1,62 @@
+.edit-block{
+    position: fixed;
+    height: 100%;
+    width: 14%;
+    z-index: 1;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    animation: showEdit .5s ease-in-out;
+    border-right: 2px solid rgba(0, 160, 223);
+}
+@keyframes showEdit {
+    from {left: -14%}
+    to {left: 0}
+}
+
+.hideModal{
+    animation: hideEdit .5s;
+}@keyframes hideEdit {
+     from {left: 0}
+     to {left: -14%}
+ }
+
+.edit-input{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+    /* background: linear-gradient(70deg,  rgba(177,30,106,0.6),rgba(50,147,218,0.6),rgba(109,92,217,0.6) ); */
+    width: 12em;
+    display: inline-block;
+}
+.edit-button{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.edit-person-select{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+    /* background: linear-gradient(70deg,  rgba(177,30,106,0.6),rgba(50,147,218,0.6),rgba(109,92,217,0.6) ); */
+    width: 12em;
+    border: 2px solid rgb(0,158,223);
+}
+
+.edit-Error{
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 8%;
+    border-radius: 5px;
+    background: rgba(211, 47, 47) ;
+    width: 150px;
+}
+.edit-button-container{
+    text-align: center;
+}
+
+.edit-label-container{
+    padding-top: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}

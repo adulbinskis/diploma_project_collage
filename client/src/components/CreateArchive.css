@@ -1,0 +1,52 @@
+.createP-textarea{
+    height: 400px;
+    width: 94%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.createArchive-container{
+    text-align: left;
+    margin-left: 50px;
+    /*background-color: rgba(62, 123, 230, 0.5);*/
+}
+.createArchive-upload-input{
+    width: 400px;
+    height: 20px;
+    background-color: rgba(62,134,203, 0.3);
+    border: 1px solid white;
+}
+.createP-input{
+    /* background-color: rgba(62,134,203, 0.5); */
+    margin: 2px 5px 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(0,158,223);
+}
+.createArchive-save-button{
+    background-color: rgba(62,134,203, 0.5);
+    margin: 2px 5px 5px;
+    border: 1px solid white;
+}
+.create-archive-title-Error{
+    position: absolute;
+    margin-left: 460px;
+    border-radius: 5px;
+    background: rgba(211, 47, 47) ;
+    width: 150px;
+}
+.create-archive-title-input{
+    min-width: 450px;
+    /* background-color: rgba(62,134,203, 0.5) */
+    border: 0;
+    border-bottom: 2px solid rgb(0,158,223);
+}
+.create-archive-Error{
+    position: absolute;
+    margin-left: 190px;
+    border-radius: 5px;
+    background: rgba(211, 47, 47) ;
+    width: 150px;
+    margin-top: 2px;
+}

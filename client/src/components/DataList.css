@@ -1,0 +1,73 @@
+.list{
+    color: black;
+    padding: 5px;
+    font-family: "Times New Roman", serif;
+}
+table{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgb(0,158,223);
+}
+th{
+   background-color: rgb(50,147,218);
+    padding-right: 2px;
+    padding-left: 2px;
+    height: 3em;
+}
+td {
+     border-bottom: 1px solid rgb(0,158,223);
+}
+select{
+    background-color: rgb(50,147,218) ;
+    border: 1px solid white;
+    height: 2em;
+}
+button{
+    height: 2em;
+    width: 5em;
+    background-color: white;
+    border: 2px solid rgb(0,158,223);
+    transition-duration: 0.4s;
+    border-radius: 4px;
+
+}
+button:hover {
+    background-color: rgb(50,147,218);
+    color: white;
+}
+input{
+    /* background-color: rgb(50,147,218); */
+    border: 2px solid rgb(0,158,223);
+    color: black;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+.list-search{
+    margin-left: auto;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0,158,223);
+}
+.list-create{
+    margin-left: 10px;
+}
+
+.list-table-div{
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.list-select{
+    /*margin-left: 5px;*/
+    height: 1.5em;
+    border-radius: 2px;
+    
+}
+.list-td-delete{
+    text-align: center;
+}
+.list-button-delete:hover {
+     background-color: rgba(177,30,106,0.9);
+ }

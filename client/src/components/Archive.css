@@ -1,0 +1,128 @@
+big{
+    white-space: pre-line;
+}
+.archive-container{
+    font-family:  "Helvetica" ;
+    text-align: center;
+    color: black;
+    min-height: 100vh;
+}
+.archive-title{
+
+    font-family: "Helvetica sans-serif"  ;
+}
+.archive-second-title{
+    font-family: "Helvetica sans-serif" ;
+    border-top: 5px rgb(0,158,223) solid;
+}
+.archive-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width:300px;
+    height:200px;
+    /* border-radius: 5px; */
+}
+
+.archive-img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 6px -2px rgba(0,0,0, 0.4);
+}
+.archive-text-container{
+    display: inline-block;
+    text-align: left;
+    width: 97%;
+    color: rgb(0, 0, 0);
+
+}
+.archive-upload-input{
+    width: 400px;
+    height: 20px;
+    border: none;
+    background-color: rgba(62,134,203, 0.3);
+}
+.archive-textarea{
+    padding: 5px;
+    height: 300px;
+    width: 90%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family:  "Helvetica";
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1.2em;
+}
+.archive-edit-text{
+    text-align: left;
+    margin-left: -10px;
+}
+.archive-button{
+    background-color: rgba(62,134,203, 0.3);
+    margin: 2px 5px 5px;
+    border: none;
+}
+.archive-delete-button{
+    background-color: rgba(62,134,203, 0.3);
+    margin: 2px 5px 5px;
+    border: none;
+}
+.archive-delete-button:hover{
+    background-color: rgba(177,30,106,0.9);
+}
+
+.picture-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-gap: 10px;
+}
+
+.archive-author{
+    margin-top: 10px;
+}
+.isActual-archive-container{
+    text-align: left;
+    margin: 20px;
+}
+
+.archive-select-year-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(179,226,244);
+    padding: 10px;
+}
+.archive-select-title-container{
+    display: grid;
+    justify-items:center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.archive-select-unit{
+    padding: 5px;
+    font-family: "Helvetica";
+    /* border-radius: 5px; */
+    /* background-color: rgb(50,147,218); */
+}
+/* .archive-select-unit:hover{
+    background-color: rgb(50,147,218);
+} */
+
+.archive-select-title{
+    font-weight: bold;
+}
+.archive-pre-img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+
+}
+.archive-pre-container{
+    width: 300px;
+    background-color: rgb(0,158,223);
+    margin: 20px;
+}
+.archive-pre-title{
+    color: white;
+}

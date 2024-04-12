@@ -1,0 +1,33 @@
+.home-container{
+    padding-right: 40px;
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+    font-family: "Helvetica" ;
+    
+}
+
+.title-wraper{
+    background-color: rgba(0, 160, 223);
+   padding-left: 40px;
+}
+
+.h1-title{
+    font-family: "Helvetica sans-serif"  ;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+.aboutUS-text{
+    
+    font-size: 17px;
+    width: 60%;
+    margin-left: 20%;
+    /* text-align: center; */
+}
+.b-home-title{
+    color: black;
+}
+.home-img{
+    height: 50vh;
+    width: 100%;
+}

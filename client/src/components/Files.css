@@ -1,0 +1,11 @@
+.file-management-container{
+    text-align: center;
+}
+.file-upload-input-container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* .upload-input-year{
+    width: 50%;
+} */

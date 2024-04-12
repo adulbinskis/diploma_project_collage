@@ -1,0 +1,28 @@
+.header-container{
+    /* background-color: rgb(0,158,223); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.header-container2{
+    display: flex;
+    border-bottom: 5px rgb(0,158,223) solid;
+    align-items: flex-start;
+    justify-content: center;
+    /* padding-left: 5%; */
+   
+
+} 
+
+
+.header-image{
+    height: 80px;
+    padding: 25px;
+}
+
+.home-main-title{
+    font-family: "Helvetica sans-serif";
+}

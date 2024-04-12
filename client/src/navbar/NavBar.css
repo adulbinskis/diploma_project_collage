@@ -1,0 +1,25 @@
+.navbar-container{
+    position:sticky ;
+    top:0;
+    height: fit-content;
+    /* background: linear-gradient(180deg, rgba(51, 48, 148, 0.616),rgba(51, 48, 148, 0.616),rgba(51, 48, 148, 0.171));; */
+    text-align: center;
+    transition: top 0.5s;
+}
+.navbar-unite{
+    display: inline-block;
+    padding: 10px;
+    font-family: "Helvetica";
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 1.2em;
+    
+}
+.navbar-link:hover{
+    color: rgba(0, 160, 223);
+}

@@ -1,0 +1,25 @@
+.print-back{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgba(102, 102, 102,0.6);
+}
+.print-container{
+    margin: 5%
+}
+.print-th{
+    background-color: white;
+    border: 2px solid black;
+}
+.print-button{
+    float: right;
+    margin: 5px;
+}
+.print-close-button{
+    float: right;
+    margin: 5px;
+}
+.print-close-button:hover{
+     background-color: rgba(177,30,106,0.9);
+ }

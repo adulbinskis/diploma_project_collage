@@ -1,0 +1,11 @@
+.map-container{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.map-title{
+    flex: 1 100%;
+     height: auto;   
+}

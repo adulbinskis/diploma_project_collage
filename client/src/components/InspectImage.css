@@ -1,0 +1,46 @@
+.inspect-image-overlay{
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0, 0.8);
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    animation: showImg .5s ease-in-out;
+}
+
+.inspect-image{
+    margin-top: 20px;
+    height: 90%;
+    width: auto;
+
+}
+
+@keyframes showImg {
+    0%    { opacity: 0; }
+    100%  { opacity: 1; }
+}
+
+.hideImageModal{
+    animation: hideImg .5s;
+}@keyframes hideImg {
+     0%    { opacity: 1; }
+     100%  { opacity: 0; }
+ }
+
+.inspect-close-button{
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    margin-top: 24px;
+    margin-left: -30px;
+    background-color: rgba(62, 123, 230, 0.5);
+    border: 1px solid white;
+    color: white;
+}
+.inspect-close-button:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: rgba(177,30,106,0.6);
+}

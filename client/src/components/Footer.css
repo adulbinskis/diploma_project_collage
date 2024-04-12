@@ -1,0 +1,25 @@
+.footer-container{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content:space-around;
+    flex-direction: row;
+    bottom: 0;
+    margin-top: 50px;
+    background-color: rgb(76,188,234);
+    /* background-image: url('../img/footer-background.png'); */
+    /* background-size: 100%; */
+}
+.footer-wraper1{
+    color: rgb(255, 255, 255);
+    font-family: "Tahoma", sans-serif;
+    padding: 10px;
+}
+.footer-wraper2{
+    color: rgb(255, 255, 255);
+    font-family: "Tahoma", sans-serif;
+    padding: 10px;
+}
+.footer-entity-title{
+    color: black;
+}
